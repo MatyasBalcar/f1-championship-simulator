@@ -1,4 +1,4 @@
-import json
+import json,time
 file = open('drivers.json')
 data_drivers = json.load(file)
 #*print(data_drivers['drivers']['VER'])
@@ -30,7 +30,7 @@ for race in data_races['races']:
 #* Get the first key in the dictionary.(name of the elad driver)
 lead_driver = next(iter(drivers_points))
 
-round_completed=input("Which was the latest completed round number: ")
+round_completed=input("Which was the latest completed round number or name: ")
 try:
     round_completed=int(round_completed)
 except ValueError:
@@ -74,10 +74,10 @@ if len(drivers_in_championship)==0:
 else:
 
     print("""
-    Drivers who can still win
+    Drivers who can still win the championship(but probably wont)
     """)
     for driver in drivers_in_championship:
-        print(driver)
+        print(f"{driver} who is {drivers_points[lead_driver]-drivers_points[driver]} points behind {lead_driver}")
     '''
     print("""
     Drivers who are eliminated
@@ -86,3 +86,4 @@ else:
         print(driver)
     '''
 
+time.sleep(10)
