@@ -81,9 +81,11 @@ else:
     for driver in drivers_in_championship:
         print(f"{driver} who is {drivers_points[lead_driver]-drivers_points[driver]} points behind {lead_driver}")
     print("Remaining races")
+    p=1
     for race in name_number:
         if name_number[race]>=round_completed+1:
-            print(race)
+            print(f"Name : {race} | Max points : {raceNumber_points[p]}")
+        p+=1
     '''
     print("""
     Drivers who are eliminated
