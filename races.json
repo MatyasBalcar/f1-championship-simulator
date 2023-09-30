@@ -1,0 +1,101 @@
+{
+    "races": {
+      "1": {
+        "name": "Australia",
+        "max_points": 26
+      },
+      "2": {
+        "name": "Bahrain",
+        "max_points": 26
+      },
+      "3": {
+        "name": "Saudi Arabia",
+        "max_points": 26
+      },
+      "4": {
+        "name": "Emilia Romagna",
+        "max_points": 26
+      },
+      "5": {
+        "name": "Miami",
+        "max_points": 26
+      },
+      "6": {
+        "name": "Spain",
+        "max_points": 26
+      },
+      "7": {
+        "name": "Monaco",
+        "max_points": 26
+      },
+      "8": {
+        "name": "Azerbaijan",
+        "max_points": 35
+      },
+      "9": {
+        "name": "Canada",
+        "max_points": 26
+      },
+      "10": {
+        "name": "Great Britain",
+        "max_points": 26
+      },
+      "11": {
+        "name": "Austria",
+        "max_points": 35
+      },
+      "12": {
+        "name": "France",
+        "max_points": 26
+      },
+      "13": {
+        "name": "Hungary",
+        "max_points": 26
+      },
+      "14": {
+        "name": "Belgium",
+        "max_points": 35
+      },
+      "15": {
+        "name": "Netherlands",
+        "max_points": 26
+      },
+      "16": {
+        "name": "Italy",
+        "max_points": 26
+      },
+      "17": {
+        "name": "Singapore",
+        "max_points": 26
+      },
+      "18": {
+        "name": "Japan",
+        "max_points": 26
+      },
+      "19": {
+        "name": "Qatar",
+        "max_points": 35
+      },
+      "20": {
+        "name": "United States",
+        "max_points": 35
+      },
+      "21": {
+        "name": "Mexico City",
+        "max_points": 26
+      },
+      "22": {
+        "name": "Brazil",
+        "max_points": 35
+      },
+      "23": {
+        "name": "Las vegas",
+        "max_points": 26
+      },
+      "24": {
+        "name": "Abu Dhabi",
+        "max_points": 26
+      }
+    }
+  }
+  

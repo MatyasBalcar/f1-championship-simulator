@@ -1,0 +1,104 @@
+{
+    "drivers": {
+      "VER": {
+        "name": "Max Verstappen",
+        "points": 400,
+        "team": "Red Bull Racing"
+      },
+      "PER": {
+        "name": "Sergio Perez",
+        "points": 223,
+        "team": "Red Bull Racing"
+      },
+      "HAM": {
+        "name": "Lewis Hamilton",
+        "points": 190,
+        "team": "Mercedes AMG F1"
+      },
+      "ALO": {
+        "name": "Fernando Alonso",
+        "points": 174,
+        "team": "Alpine F1 Team"
+      },
+      "SAI": {
+        "name": "Carlos Sainz",
+        "points": 150,
+        "team": "Scuderia Ferrari"
+      },
+      "LEC": {
+        "name": "Charles Leclerc",
+        "points": 135,
+        "team": "Scuderia Ferrari"
+      },
+      "NOR": {
+        "name": "Lando Norris",
+        "points": 115,
+        "team": "McLaren F1 Team"
+      },
+      "RUS": {
+        "name": "George Russell",
+        "points": 115,
+        "team": "Mercedes AMG F1"
+      },
+      "PIA": {
+        "name": "Oscar Piastri",
+        "points": 57,
+        "team": "McLaren F1 Team"
+      },
+      "STR": {
+        "name": "Lance Stroll",
+        "points": 47,
+        "team": "Aston Martin Aramco Cognizant F1 Team"
+      },
+      "GAS": {
+        "name": "Pierre Gasly",
+        "points": 37,
+        "team": "AlphaTauri"
+      },
+      "BOT": {
+        "name": "Valtteri Bottas",
+        "points": 36,
+        "team": "Alfa Romeo F1 Team ORLEN"
+      },
+      "OCO": {
+        "name": "Esteban Ocon",
+        "points": 34,
+        "team": "Alpine F1 Team"
+      },
+      "HUL": {
+        "name": "Nico Hülkenberg",
+        "points": 34,
+        "team": "Haas F1 Team"
+      },
+      "SCH": {
+        "name": "Mick Schumacher",
+        "points": 18,
+        "team": "Haas F1 Team"
+      },
+      "ALB": {
+        "name": "Alexander Albon",
+        "points": 18,
+        "team": "Williams Racing"
+      },
+      "ZHO": {
+        "name": "Guanyu Zhou",
+        "points": 14,
+        "team": "Alfa Romeo F1 Team ORLEN"
+      },
+      "TSU": {
+        "name": "Yuki Tsunoda",
+        "points": 12,
+        "team": "AlphaTauri"
+      },
+      "SAR": {
+        "name": "Felipe Drugovich",
+        "points": 12,
+        "team": "Aston Martin Aramco Cognizant F1 Team"
+      },
+      "DEV": {
+        "name": "Nyck de Vries",
+        "points": 10,
+        "team": "Williams Racing"
+      }
+    }
+  }
