@@ -6,6 +6,7 @@ data_drivers = json.load(file)
 file2= open('races.json')
 data_races= json.load(file2)
 
+total_races=24
 
 drivers_points={
 
@@ -69,6 +70,7 @@ for driver in drivers_points:
         else:
             elimintaed_drivers.append(driver)
 
+
 if len(drivers_in_championship)==0:
     print(f"{lead_driver} has won the championship")
 else:
@@ -78,6 +80,10 @@ else:
     """)
     for driver in drivers_in_championship:
         print(f"{driver} who is {drivers_points[lead_driver]-drivers_points[driver]} points behind {lead_driver}")
+    print("Remaining races")
+    for race in name_number:
+        if name_number[race]>=round_completed+1:
+            print(race)
     '''
     print("""
     Drivers who are eliminated
