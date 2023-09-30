@@ -37,6 +37,10 @@ for race in raceNumber_points:
 for race in to_delete:
     raceNumber_points.pop(race)
 
+second_driver = next(iter([driver for driver in drivers_points.keys() if driver != lead_driver]))
+gap_to_second = drivers_points[lead_driver] - drivers_points[second_driver]
+
+
 possible_points=0
 l=round_completed+1
 for race in raceNumber_points:
@@ -59,16 +63,17 @@ for driver in drivers_points:
 if len(drivers_in_championship)==0:
     print(f"{lead_driver} has won the championship")
 else:
+    print(f'{lead_driver} needs to outscore {second_driver} by {possible_points-gap_to_second} points to win the championship')
     print("""
     Drivers who can still win
     """)
     for driver in drivers_in_championship:
         print(driver)
-        
+    '''
     print("""
     Drivers who are eliminated
     """)
     for driver in elimintaed_drivers:
         print(driver)
-
+    '''
 
