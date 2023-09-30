@@ -56,17 +56,19 @@ for driver in drivers_points:
         else:
             elimintaed_drivers.append(driver)
 
-
-print("""
-Drivers who can still win
-""")
-for driver in drivers_in_championship:
-    print(driver)
-    
-print("""
-Drivers who are eliminated
-""")
-for driver in elimintaed_drivers:
-    print(driver)
+if len(drivers_in_championship)==0:
+    print(f"{lead_driver} has won the championship")
+else:
+    print("""
+    Drivers who can still win
+    """)
+    for driver in drivers_in_championship:
+        print(driver)
+        
+    print("""
+    Drivers who are eliminated
+    """)
+    for driver in elimintaed_drivers:
+        print(driver)
 
 
