@@ -14,19 +14,28 @@ drivers_points={
 raceNumber_points={
 
 }
+name_number={
+
+}
 #adds drivers and their points into a dict
 for driver in data_drivers['drivers']:
     drivers_points[data_drivers['drivers'][driver]['name']]=data_drivers['drivers'][driver]['points']
 i=1
 for race in data_races['races']:
     raceNumber_points[i]=data_races['races'][race]['max_points']
+    name_number[data_races['races'][race]['name']]=i
     i+=1
 
 
 #* Get the first key in the dictionary.(name of the elad driver)
 lead_driver = next(iter(drivers_points))
 
-round_completed=int(input("Which was the latest completed round number: "))
+round_completed=input("Which was the latest completed round number: ")
+try:
+    round_completed=int(round_completed)
+except ValueError:
+    round_completed=name_number[round_completed]
+
 j=1
 to_delete=[]
 #deletes all the past races
@@ -63,7 +72,7 @@ for driver in drivers_points:
 if len(drivers_in_championship)==0:
     print(f"{lead_driver} has won the championship")
 else:
-    print(f'{lead_driver} needs to outscore {second_driver} by {possible_points-gap_to_second} points to win the championship')
+
     print("""
     Drivers who can still win
     """)
